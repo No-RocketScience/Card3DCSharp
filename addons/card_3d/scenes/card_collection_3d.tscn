@@ -1,12 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1uvcisduvvj"]
+[gd_scene load_steps=3 format=3 uid="uid://cwsfysmptx4tc"]
 
-[ext_resource type="Script" path="res://addons/card_3d/scripts/card_collection_3d.gd" id="1_0ckh6"]
+[ext_resource type="Script" path="res://addons/card_3d/scripts/CardCollection3D.cs" id="1_e7254"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bpvrg"]
 points = PackedVector3Array(-7, 2, 0, -7, -2, 0, 7, -2, 0, 7, 2, 0)
 
 [node name="CardCollection3D" type="Node3D"]
-script = ExtResource("1_0ckh6")
+script = ExtResource("1_e7254")
 
 [node name="DropZone" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.6)

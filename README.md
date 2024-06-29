@@ -32,6 +32,9 @@ import the project from the Godot asset library
 4. Configure the drop settings for the card collections.
 5. Add a script that instantiates `Card3D` nodes and adds them to the collections.
 
+## Warning
+Only the example game has been ported to C#. exaple_battle and example_solitair still use GDScripts and will not work.
+
 
 ## Acknowledgements
 
