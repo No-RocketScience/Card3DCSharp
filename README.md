@@ -33,7 +33,7 @@ import the project from the Godot asset library
 5. Add a script that instantiates `Card3D` nodes and adds them to the collections.
 
 ## Warning
-Only the example game has been ported to C#. exaple_battle and example_solitair still use GDScripts and will not work.
+Only the example game has been ported to C#. example_battle and example_solitaire still use GDScripts and will not work.
 
 
 ## Acknowledgements
